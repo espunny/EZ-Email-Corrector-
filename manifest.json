@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "EZ Email Corrector +",
+  "version": "1.1",
+  "description": "Esta extensión corrige direcciones de correo erróneas en cualquier campo (inputs o textareas) mediante inteligencia artificial. Ayuda a prevenir errores tipográficos y garantiza que los correos ingresados sean válidos.",
+  "author": "Rubén G <it@reclamacioneszero.com>",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.openai.com/*"
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
