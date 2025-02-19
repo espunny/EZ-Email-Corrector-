@@ -2,8 +2,8 @@
   "manifest_version": 3,
   "name": "EZ Email Corrector +",
   "version": "1.1",
-  "description": "Esta extensión corrige direcciones de correo erróneas en cualquier campo (inputs o textareas) mediante inteligencia artificial. Ayuda a prevenir errores tipográficos y garantiza que los correos ingresados sean válidos.",
-  "author": "Rubén G <it@reclamacioneszero.com>",
+  "description": "This extension corrects erroneous email addresses in any field (inputs or textareas) using artificial intelligence. It helps prevent typographical errors and ensures that the entered email addresses are valid.",
+  "author": "Rubén G <githubezemailcorrect.stopper428@passmail.net>",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
