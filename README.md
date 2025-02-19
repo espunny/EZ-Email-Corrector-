@@ -1,6 +1,6 @@
 # EZ Email Corrector +
 
-## Versión en Español
+## Español
 
 EZ Email Corrector + es una extensión de Chrome de código abierto que utiliza inteligencia artificial para corregir automáticamente errores tipográficos en direcciones de correo electrónico. La extensión interviene en tiempo real en cualquier campo de entrada (inputs o textareas) que contenga lo que parezca una dirección de correo, garantizando que los correos ingresados sean correctos y evitando problemas de comunicación.
 
@@ -52,7 +52,7 @@ EZ Email Corrector + es una extensión de Chrome de código abierto que utiliza 
 
 ---
 
-## English Version
+## English
 
 EZ Email Corrector + is an open-source Chrome extension that uses artificial intelligence to automatically correct typographical errors in email addresses. The extension works in real-time on any input field (inputs or textareas) that appears to contain an email address, ensuring that the entered email addresses are correct and preventing communication issues.
 
