@@ -68,7 +68,7 @@ function correctDomain(domain) {
 // Función (mantener en caso de requerir correcciones totales de email)
 function correctEmail(originalEmail) {
   console.log("Intentando corregir email:", originalEmail);
-  const prompt = 'Corrige el dominio de la siguiente dirección de correo si es incorrecta, y si es correcta, repítela exactamente: "${originalEmail}"';
+  const prompt = `Corrige el dominio de la siguiente dirección de correo si es incorrecta, y si es correcta, repítela exactamente: "${originalEmail}"`;
   const data = {
     model: "gpt-4o-mini", // O puedes cambiar a "gpt-3.5-turbo"
     messages: [
